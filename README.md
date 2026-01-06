@@ -1,399 +1,128 @@
-# 🎯 StudyBuddy
+# 🎯 StudyBuddy  
+**Your smart study companion**
 
-**Tagline:** *Your smart study companion*
-
-A modern, beautiful focus and productivity app for students who want to build better study habits.
-
----
-
-## 🌟 What is StudyBuddy?
-
-StudyBuddy is your personal study companion that helps you:
-- 📚 **Focus better** with structured study sessions
-- 🔥 **Build streaks** and consistent study habits
-- 📊 **Track progress** with beautiful analytics
-- 🧠 **Clear your mind** with brain dumps
-- 🎨 **Enjoy studying** with a gorgeous, modern interface
-
-### Key Features
-✨ **Beautiful Design** - Modern UI with dark & light themes  
-🎯 **Focus Sessions** - Timed study sessions with progress tracking  
-🔥 **Streak System** - Build daily study habits  
-📊 **Analytics** - Visual progress tracking  
-🧠 **Brain Dump** - Clear overthinking before studying  
-🎵 **Music Player** - Built-in focus music (offline)  
-🌗 **Dark & Light Mode** - Choose your preferred theme  
-📱 **100% Offline** - No internet required  
-🔒 **Private** - All data stays on your device
+A modern, offline-first focus & productivity app designed to help students build **real discipline**, not temporary motivation.
 
 ---
 
-## ✨ Core Features
+## 🌟 Overview
 
-### 1. **Mental State Engine** 🧠
-- Select your current mental state: Distracted, Overthinking, Lazy, Anxious, Burned Out, Locked In, or Exam Panic
-- App adapts UI colors, animation speed, music, session duration, and strictness level based on your state
-- Dynamic behavior that responds to how you actually feel
+**StudyBuddy** is a distraction-free study companion that adapts to your **mental state**, enforces focus through **lockdown rules**, and tracks progress locally — without internet, accounts, or notifications.
 
-### 2. **Extreme Lockdown Mode** 🔒
-- Fullscreen immersive mode during sessions
+---
+
+## 🚀 Key Highlights
+
+- 🎯 Adaptive focus sessions based on mental state  
+- 🔒 Extreme Lockdown Mode to eliminate distractions  
+- 🔥 Streaks & discipline scoring system   
+- 📊 Local analytics dashboard  
+- 🧠 Brain dump zone for overthinking  
+- 🛡️ Burnout protection system  
+- 📱 100% offline & private  
+
+---
+
+## 🧠 Core Features
+
+### 🎭 Mental State Engine
+Select your current state (Distracted, Overthinking, Lazy, Anxious, Burned Out, Locked In, Exam Panic).  
+The app dynamically adjusts:
+- Session duration  
+- UI colors & animations  
+- Music/sound type  
+- Strictness level  
+
+---
+
+### 🔒 Extreme Lockdown Mode
+- Fullscreen immersive focus
 - Back button disabled
-- App exit requires 3-second long press + confirmation
-- Early exit logs as failure (affects discipline score)
-- "Distraction contract" before each session
+- App exit requires **3-second long press + confirmation**
+- Early exit affects discipline score
+- Distraction contract before each session
 
-### 3. **Advanced Music & Sound Engine** 🎧
-Built-in offline music player with categories:
-- Deep Focus (low BPM)
-- Lo-Fi
-- White Noise
-- Rain
-- Fan Noise
-- Brown Noise
-- Absolute Silence Mode
+---
+---
 
-Features:
-- Looping playback
-- Volume fade-in at session start
-- Volume fade-out at breaks
-- Auto music selection based on mental state
-- Lock music changes during locked-in states
-
-### 4. **Pressure Timer** ⏱️
-- Progressive intensity sessions (not just Pomodoro)
-- Visual pressure ring that tightens over time
-- Color saturation increases as time passes
-- Haptic feedback at milestone intervals
+### ⏱️ Pressure Timer (Beyond Pomodoro)
+- Progressive intensity sessions
+- Visual pressure ring
+- Increasing color saturation
 - Focus → Micro-break → Cooldown cycle
+- Haptic feedback at time milestones
 
-### 5. **Procrastination Destroyer** 🚨
-- Tracks time wasted delaying study
-- Urgency messages if you procrastinate
-- "You already wasted X minutes today"
+---
+
+### 🚨 Procrastination Destroyer
+- Tracks delay before starting sessions
+- Urgency reminders
+- “You already wasted X minutes today”
 - Force-start option with no escape
 
-### 6. **Overthinking Dump Zone** 🧠
-- Brain dump screen for intrusive thoughts
-- Type out mental clutter to clear your mind
-- Thoughts are locked until break time
-- Clears mental RAM before focusing
+---
 
-### 7. **Honesty System** ✅
+### 🧠 Brain Dump Zone
+- Dump intrusive or distracting thoughts
+- Thoughts lock until break time
+- Clears mental clutter before focusing
+
+---
+
+### ✅ Honesty System
 After each session:
-- "Did you actually study?" honesty check
-- Focus honesty score affects discipline rating
-- No shame - just accountability
-- Strictness auto-adjusts based on honesty
+- “Did you actually study?”
+- Honesty affects discipline score
+- No punishment — only accountability
 
-### 8. **Burnout Protection** 🛡️
+---
+
+### 🛡️ Burnout Protection
 - Tracks continuous effort
-- Forces rest if overload detected
-- "Rest is part of discipline" philosophy
-- Prevents unhealthy cramming
+- Forces rest when overload is detected
+- Promotes sustainable discipline
 
-### 9. **Streaks & Consistency** 🔥
-- Daily focus streak
-- Weekly discipline score (0-100)
-- Longest streak tracking
-- Gentle 36-hour grace period
-- Recovery system (no toxic punishment)
+---
 
-### 10. **Visual Analytics Dashboard** 📊
-Local charts showing:
-- Focus minutes per day (last 7 days)
+### 🔥 Streaks & Consistency
+- Daily focus streaks
+- 36-hour grace period
+- Weekly discipline score (0–100)
+- Recovery system without toxic punishment
+
+---
+
+### 📊 Analytics Dashboard (Local)
+- Focus minutes (last 7 days)
 - Mental state distribution
 - Completion rate
-- Discipline score with visual indicator
+- Discipline score indicator
 - Session statistics
 
-### 11. **Session Breakdown** 📋
-- Subject and topic tracking
-- Planned vs actual duration
-- Mental state logging
-- Music effectiveness tracking
+---
 
-### 12. **Haptic Feedback** 📳
-Subtle vibrations for:
-- Session start
-- Milestone achievements (5, 10, 15, 20, 25 min)
-- Rule violations
-- Completion celebration
+## 🏗️ Tech Stack
+
+- **Framework:** Flutter  
+- **Language:** Dart  
+- **Platform:** Android-first  
+- **Storage:** SharedPreferences + local files  
+- **Audio:** `audioplayers` (offline)  
+- **Charts:** `fl_chart`  
+- **Backend:** None  
+- **Internet Required:** No  
 
 ---
 
-## 🏗️ Technical Architecture
+## 🛠️ Installation
 
-### Tech Stack
-- **Framework:** Flutter (latest stable)
-- **Language:** Dart only
-- **Platform:** Android-first, offline-first
-- **Storage:** SharedPreferences + local files
-- **Audio:** audioplayers package (offline playback)
-- **Charts:** fl_chart
-- **No Backend:** 100% local, no internet required
-- **No AI/ML:** Pure logic-based system
-
-### Project Structure
-```
-lib/
-├── core/
-│   ├── constants/
-│   │   └── app_constants.dart
-│   ├── models/
-│   │   ├── enums.dart
-│   │   └── models.dart
-│   ├── services/
-│   │   ├── storage_service.dart
-│   │   ├── timer_service.dart
-│   │   ├── music_service.dart
-│   │   ├── streak_service.dart
-│   │   └── haptic_service.dart
-│   └── theme/
-│       └── app_theme.dart
-├── screens/
-│   ├── home/
-│   ├── mental_state/
-│   ├── focus/
-│   ├── session_complete/
-│   ├── analytics/
-│   ├── brain_dump/
-│   ├── procrastination/
-│   └── onboarding/
-├── widgets/
-│   ├── glass_card.dart
-│   ├── stat_card.dart
-│   └── pressure_ring.dart
-└── main.dart
-```
-
-### Key Services
-
-**StorageService**
-- Manages all local data persistence
-- User stats, sessions, tasks, thoughts
-- Mental state tracking
-- Burnout and procrastination monitoring
-
-**TimerService**
-- Focus session countdown
-- Pause/resume functionality
-- Milestone tracking
-- Completion callbacks
-
-**MusicService**
-- Offline audio playback
-- Volume control with fade effects
-- Looping support
-- Category management
-
-**StreakService**
-- Streak calculation with grace period
-- Discipline score algorithm
-- Session statistics aggregation
-- Mental state analytics
-
-**HapticService**
-- Vibration patterns
-- Milestone celebrations
-- Warning haptics
-- Success/error feedback
-
----
-
-## 🎨 Design Philosophy
-
-### UI/UX Principles
-- **Extremely minimal** - no distractions
-- **Large typography** - easy to read at a glance
-- **Calm but strict** - supportive yet firm
-- **Dark mode first** - easier on eyes
-- **Glassmorphism cards** - modern, clean aesthetic
-- **Smooth 60 FPS animations** - professional feel
-- **Fullscreen immersive focus** - complete concentration
-
-### Color System
-- Adapts to mental state
-- Distracted: Red tones
-- Overthinking: Purple tones
-- Lazy: Teal tones
-- Anxious: Coral tones
-- Burned Out: Orange tones
-- Locked In: Green tones
-- Exam Panic: Dark red (emergency)
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Flutter SDK (3.10.4 or higher)
-- Android Studio / VS Code
-- Android device or emulator
-
-### Installation
-
-1. **Clone the repository**
 ```bash
 git clone <repository-url>
 cd nexora
-```
-
-2. **Install dependencies**
-```bash
 flutter pub get
-```
-
-3. **Run the app**
-```bash
 flutter run
-```
-
-### Building for Release
-
-**Android APK:**
-```bash
-flutter build apk --release
-```
-
-**Android App Bundle:**
-```bash
-flutter build appbundle --release
-```
 
 ---
 
-## 📱 How to Use
+## 📁 Project Structure
 
-### First Time Setup
-1. Complete onboarding to understand lockdown rules
-2. Select your current mental state
-3. Set your first focus session
-
-### Starting a Session
-1. Choose mental state (app adapts automatically)
-2. Set session duration (or use recommended)
-3. Enter subject/topic (optional)
-4. Accept distraction contract
-5. LOCK IN & START
-
-### During Session
-- Timer counts down with pressure ring animation
-- Music plays (auto-selected or choose your own)
-- No escape without long-press confirmation
-- Haptic feedback at milestones
-
-### After Session
-- Honesty check: "Did you actually focus?"
-- View session stats
-- Streak updates automatically
-- Return to home or view analytics
-
-### Brain Dump
-- Access from home screen
-- Write intrusive thoughts
-- Thoughts get "locked" until break
-- Clears mental clutter before focusing
-
-### Analytics
-- View 7-day focus chart
-- Check discipline score
-- See mental state distribution
-- Track completion rate
-
----
-
-## 🎯 Discipline Score Algorithm
-
-Your discipline score (0-100) is calculated from:
-- **50%** - Completion rate (finished vs abandoned sessions)
-- **30%** - Honesty score (truthful self-assessment)
-- **20%** - Streak bonus (consistency over time)
-
-### Score Ranges
-- **80-100:** Excellent Discipline 🏆
-- **60-79:** Good Progress 📈
-- **40-59:** Building Momentum 🔨
-- **0-39:** Keep Pushing 💪
-
----
-
-## 🔧 Customization
-
-### Mental State Settings
-Each mental state has configurable:
-- Default session duration
-- Animation speed multiplier
-- Strictness level (1-5)
-- Default music category
-- Music lock permission
-
-### Session Durations
-- Minimum: 5 minutes
-- Maximum: 60 minutes
-- Adjustable via slider
-
----
-
-## 📊 Data Privacy
-
-**100% Offline. 100% Private.**
-- All data stored locally on device
-- No internet connection required
-- No tracking or analytics sent anywhere
-- No user accounts or login
-- Your data never leaves your phone
-
----
-
-## 🛠️ Future Enhancements
-
-Potential additions (not yet implemented):
-- Task decomposer with mandatory subtasks
-- Hard reset mode for stuck users
-- Exam countdown timer
-- Study group sessions (local network)
-- Focus music generator (algorithmic)
-- Export data to CSV
-
----
-
-## 🤝 Contributing
-
-This is a personal project, but suggestions are welcome!
-
----
-
-## 📄 License
-
-This project is built for educational purposes.
-
----
-
-## 💡 Philosophy
-
-> "Motivation is fleeting. Discipline is forever."
-
-This app doesn't try to inspire you. It doesn't gamify focus. It doesn't promise magical productivity hacks.
-
-It simply creates an environment where distraction is hard and focus is the path of least resistance.
-
-**Control your mind. Control your time.**
-
----
-
-## ⚠️ Disclaimer
-
-This app is designed to help with focus and discipline. It is NOT a replacement for professional mental health support. If you're experiencing severe anxiety, burnout, or other mental health challenges, please seek help from qualified professionals.
-
----
-
-**Built with discipline. Used with intention. 🎯**
-#   N e x o r a 
- 
- #   N e x o r a 
- 
- #   N e x o r a 
- 
- #   N e x o r a 
- 
- 
