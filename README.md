@@ -43,7 +43,6 @@ The app dynamically adjusts:
 - Distraction contract before each session
 
 ---
----
 
 ### ⏱️ Pressure Timer (Beyond Pomodoro)
 - Progressive intensity sessions
@@ -123,6 +122,5 @@ flutter pub get
 flutter run
 
 ---
-
-## 📁 Project Structure
+---
 
